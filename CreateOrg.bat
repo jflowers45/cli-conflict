@@ -1,4 +1,4 @@
-@REM Execute in Windows using: .\EXFiles\scripts\CreateOrg.bat
+@REM Execute in Windows using: .\CreateOrg.bat
 @echo off
 echo "*** Creating scratch Org..."
 call sfdx force:org:create -f config/project-scratch-def.json --setdefaultusername --setalias conflict_test -d 1
